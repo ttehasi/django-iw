@@ -20,6 +20,7 @@ def test_response(as_anon, campaign, url):
     assert response["name"] == campaign.name
 
     assert set(response) == {
+        'created_at',
         "id",
         "name",
     }

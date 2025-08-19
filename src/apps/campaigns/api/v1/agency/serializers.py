@@ -9,4 +9,5 @@ class CampaignListAsAgencySerializer(serializers.ModelSerializer):
         fields = (
             "id",
             "name",
+            "created_at"
         )
