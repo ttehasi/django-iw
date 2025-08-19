@@ -9,7 +9,7 @@ INSTALLED_APPS = [
 
     "rest_framework",
     "django_filters",
-    
+
     "apps.campaigns.apps.CampaignsConfig",
     "apps.strategies.apps.StrategiesConfig",
     "models.apps.ModelsConfig",
