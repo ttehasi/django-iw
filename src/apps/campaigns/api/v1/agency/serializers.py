@@ -6,7 +6,4 @@ from models.models import Campaign
 class CampaignListAsAgencySerializer(serializers.ModelSerializer):
     class Meta:
         model = Campaign
-        fields = (
-            "id",
-            "name",
-        )
+        fields = ("id", "name", "created_at")
