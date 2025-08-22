@@ -1,3 +1,6 @@
+[![CI](https://github.com/ttehasi/django-iw/actions/workflows/ci.yml/badge.svg)](https://github.com/ttehasi/django-iw/actions)
+
+
 НАЗВАНИЕ ПРОЕКТА
 
 Зависимости:
